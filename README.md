@@ -9,18 +9,24 @@
       text-align: center;
       margin-top: 20%;
       padding: 0 20px;
+      background-color: #f9f9f9;
+    }
+
+    h2 {
+      margin-bottom: 30px;
     }
 
     button {
-      padding: 15px 25px;
+      padding: 15px 30px;
       font-size: 18px;
       background-color: #00aaff;
       color: white;
       border: none;
-      border-radius: 10px;
+      border-radius: 12px;
       cursor: pointer;
       animation: pulse 1.8s infinite;
-      transition: transform 0.2s ease;
+      box-shadow: 0 0 0 rgba(0, 170, 255, 0.4);
+      transition: transform 0.2s;
     }
 
     button:hover {
@@ -30,11 +36,11 @@
     @keyframes pulse {
       0% {
         transform: scale(1);
-        box-shadow: 0 0 0 0 rgba(0, 170, 255, 0.7);
+        box-shadow: 0 0 0 0 rgba(0, 170, 255, 0.4);
       }
       70% {
-        transform: scale(1.05);
-        box-shadow: 0 0 0 15px rgba(0, 170, 255, 0);
+        transform: scale(1.08);
+        box-shadow: 0 0 0 10px rgba(0, 170, 255, 0);
       }
       100% {
         transform: scale(1);
